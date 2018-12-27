@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--scrollbars ẩn thanh scroll đi--><!--fillviewport -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="com.devhwang.a84974.mymusicapp.Fragment.FragmentBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+
+        <fragment
+            android:id="@+id/fragmentplaylist"
+            android:name="com.devhwang.a84974.mymusicapp.Fragment.FragmentPlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+
+        <fragment
+            android:id="@+id/fragmentchudetheloai"
+            android:name="com.devhwang.a84974.mymusicapp.Fragment.FragmentChuDeTheLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+        <fragment
+            android:id="@+id/fragmentalbum"
+            android:name="com.devhwang.a84974.mymusicapp.Fragment.FragmentAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+    </LinearLayout>
+
+</ScrollView>
