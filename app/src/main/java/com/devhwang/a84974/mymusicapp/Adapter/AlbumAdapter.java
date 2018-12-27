@@ -39,6 +39,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.ViewHolder> 
         viewHolder.txt_tencasialbum.setText(album.getTenCasi());
         viewHolder.txt_tenalbum.setText(album.getTenAlbum());
         Picasso.get().load(album.getHinhAnhAlbum()).into(viewHolder.img_hinhalbum);
+
     }
 
     @Override
