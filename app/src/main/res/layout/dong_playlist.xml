@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_background_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_background_banner" />
+    <ImageView
+        android:id="@+id/img_view_playlist"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBottom="@id/img_background_playlist"
+        android:elevation="6dp"
+        android:scaleType="fitXY"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:textStyle="bold"
+        android:text="Ten Playlist"
+        android:textSize="13sp"
+        android:layout_alignBottom="@id/img_view_playlist"
+        android:layout_toRightOf="@id/img_view_playlist"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:maxLines="1"
+        android:textColor="#fff"
+        android:id="@+id/txt_view_ten_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        />
+</RelativeLayout>

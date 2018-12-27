@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_title_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Nhip dieu cam xuc"
+        android:textColor="#000"
+        android:textSize="30sp" />
+    <ListView
+        android:id="@+id/listview_playlist"
+        android:layout_below="@id/txt_title_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <TextView
+        android:textSize="19sp"
+        android:text="Xem them Playlist"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:paddingLeft="5dp"
+        android:id="@+id/txt_view_playlist"
+        android:layout_below="@id/listview_playlist"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#c9c7c7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginBottom="8dp"
+        />
+
+
+</RelativeLayout>
