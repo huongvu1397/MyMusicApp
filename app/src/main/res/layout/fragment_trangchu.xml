@@ -33,6 +33,11 @@
             android:name="com.devhwang.a84974.mymusicapp.Fragment.FragmentAlbum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></fragment>
+        <fragment
+            android:id="@+id/fragmentbaihathot"
+            android:name="com.devhwang.a84974.mymusicapp.Fragment.FragmentBaiHatHot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
     </LinearLayout>
 
 </ScrollView>
